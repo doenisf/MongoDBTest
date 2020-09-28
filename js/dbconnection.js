@@ -57,9 +57,9 @@ MongoClient.connect(url, function(err, db) {
     } else {
         var dbo = db.db("mydb");
         var myobj = {
-            name: "Evelyn",
-            geburtsdatum: "23.02.1997",
-            username: "doenisf"
+            name: "Ion",
+            geburtsdatum: "01.01.1997",
+            username: "tabascoel"
         };
         dbo.collection("person").insertOne(myobj, function(err, res) {
             if(err) {
