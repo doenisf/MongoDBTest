@@ -1,5 +1,6 @@
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/";
+//var url = "mongodb://localhost:27017/";
+var url = "mongodb+srv://test:Test123@cluster0.c8yqk.mongodb.net/<dbname>?retryWrites=true&w=majority"
 
 /**
  
